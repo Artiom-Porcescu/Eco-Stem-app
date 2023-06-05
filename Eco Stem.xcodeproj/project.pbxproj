@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4208031DD00448B7A574E272 /* Pods_Eco_Stem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357B8F3AE35B450F15748BEC /* Pods_Eco_Stem.framework */; };
+		6183F3F62A2DED46006F14C2 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6183F3F52A2DED46006F14C2 /* LogInViewController.swift */; };
+		6183F3F82A2DED54006F14C2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6183F3F72A2DED54006F14C2 /* SignUpViewController.swift */; };
+		6183F3FA2A2DED6D006F14C2 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6183F3F92A2DED6D006F14C2 /* ForgotPasswordViewController.swift */; };
 		61A6FF9A2A2DE2E3004B6112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6FF992A2DE2E3004B6112 /* AppDelegate.swift */; };
 		61A6FF9C2A2DE2E3004B6112 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6FF9B2A2DE2E3004B6112 /* SceneDelegate.swift */; };
-		61A6FF9E2A2DE2E3004B6112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6FF9D2A2DE2E3004B6112 /* ViewController.swift */; };
+		61A6FF9E2A2DE2E3004B6112 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6FF9D2A2DE2E3004B6112 /* WelcomeViewController.swift */; };
 		61A6FFA12A2DE2E3004B6112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A6FF9F2A2DE2E3004B6112 /* Main.storyboard */; };
 		61A6FFA42A2DE2E3004B6112 /* Eco_Stem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61A6FFA22A2DE2E3004B6112 /* Eco_Stem.xcdatamodeld */; };
 		61A6FFA62A2DE2E4004B6112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A6FFA52A2DE2E4004B6112 /* Assets.xcassets */; };
@@ -17,15 +21,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		357B8F3AE35B450F15748BEC /* Pods_Eco_Stem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eco_Stem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C92658491F636D5878012B /* Pods-Eco Stem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eco Stem.debug.xcconfig"; path = "Target Support Files/Pods-Eco Stem/Pods-Eco Stem.debug.xcconfig"; sourceTree = "<group>"; };
+		6183F3F52A2DED46006F14C2 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		6183F3F72A2DED54006F14C2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6183F3F92A2DED6D006F14C2 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		61A6FF962A2DE2E3004B6112 /* Eco Stem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco Stem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A6FF992A2DE2E3004B6112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61A6FF9B2A2DE2E3004B6112 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61A6FF9D2A2DE2E3004B6112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61A6FF9D2A2DE2E3004B6112 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		61A6FFA02A2DE2E3004B6112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61A6FFA32A2DE2E3004B6112 /* Eco_Stem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eco_Stem.xcdatamodel; sourceTree = "<group>"; };
 		61A6FFA52A2DE2E4004B6112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61A6FFA82A2DE2E4004B6112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61A6FFAA2A2DE2E4004B6112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9E2F16DCB36539810D408E /* Pods-Eco Stem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eco Stem.release.xcconfig"; path = "Target Support Files/Pods-Eco Stem/Pods-Eco Stem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4208031DD00448B7A574E272 /* Pods_Eco_Stem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C1EDD325A94FAB0DF5BDB64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				357B8F3AE35B450F15748BEC /* Pods_Eco_Stem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54442F3B9C1FFEDFB5701B9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60C92658491F636D5878012B /* Pods-Eco Stem.debug.xcconfig */,
+				CE9E2F16DCB36539810D408E /* Pods-Eco Stem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		61A6FF8D2A2DE2E3004B6112 = {
 			isa = PBXGroup;
 			children = (
 				61A6FF982A2DE2E3004B6112 /* Eco Stem */,
 				61A6FF972A2DE2E3004B6112 /* Products */,
+				54442F3B9C1FFEDFB5701B9C /* Pods */,
+				0C1EDD325A94FAB0DF5BDB64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +90,15 @@
 			children = (
 				61A6FF992A2DE2E3004B6112 /* AppDelegate.swift */,
 				61A6FF9B2A2DE2E3004B6112 /* SceneDelegate.swift */,
-				61A6FF9D2A2DE2E3004B6112 /* ViewController.swift */,
+				61A6FF9D2A2DE2E3004B6112 /* WelcomeViewController.swift */,
 				61A6FF9F2A2DE2E3004B6112 /* Main.storyboard */,
 				61A6FFA52A2DE2E4004B6112 /* Assets.xcassets */,
 				61A6FFA72A2DE2E4004B6112 /* LaunchScreen.storyboard */,
 				61A6FFAA2A2DE2E4004B6112 /* Info.plist */,
 				61A6FFA22A2DE2E3004B6112 /* Eco_Stem.xcdatamodeld */,
+				6183F3F52A2DED46006F14C2 /* LogInViewController.swift */,
+				6183F3F72A2DED54006F14C2 /* SignUpViewController.swift */,
+				6183F3F92A2DED6D006F14C2 /* ForgotPasswordViewController.swift */,
 			);
 			path = "Eco Stem";
 			sourceTree = "<group>";
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61A6FFAD2A2DE2E4004B6112 /* Build configuration list for PBXNativeTarget "Eco Stem" */;
 			buildPhases = (
+				6B141FC568D9E2AFA9F696A0 /* [CP] Check Pods Manifest.lock */,
 				61A6FF922A2DE2E3004B6112 /* Sources */,
 				61A6FF932A2DE2E3004B6112 /* Frameworks */,
 				61A6FF942A2DE2E3004B6112 /* Resources */,
+				E9A4E297CA0FDE60242F9972 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +171,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B141FC568D9E2AFA9F696A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eco Stem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A4E297CA0FDE60242F9972 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eco Stem/Pods-Eco Stem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eco Stem/Pods-Eco Stem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eco Stem/Pods-Eco Stem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61A6FF922A2DE2E3004B6112 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6183F3F82A2DED54006F14C2 /* SignUpViewController.swift in Sources */,
+				6183F3FA2A2DED6D006F14C2 /* ForgotPasswordViewController.swift in Sources */,
 				61A6FFA42A2DE2E3004B6112 /* Eco_Stem.xcdatamodeld in Sources */,
-				61A6FF9E2A2DE2E3004B6112 /* ViewController.swift in Sources */,
+				61A6FF9E2A2DE2E3004B6112 /* WelcomeViewController.swift in Sources */,
 				61A6FF9A2A2DE2E3004B6112 /* AppDelegate.swift in Sources */,
+				6183F3F62A2DED46006F14C2 /* LogInViewController.swift in Sources */,
 				61A6FF9C2A2DE2E3004B6112 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +366,7 @@
 		};
 		61A6FFAE2A2DE2E4004B6112 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C92658491F636D5878012B /* Pods-Eco Stem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,11 +375,13 @@
 				DEVELOPMENT_TEAM = PWD28R24HG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Eco Stem/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,14 +389,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Artiom-Porcescu.Eco-Stem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		61A6FFAF2A2DE2E4004B6112 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9E2F16DCB36539810D408E /* Pods-Eco Stem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,11 +409,13 @@
 				DEVELOPMENT_TEAM = PWD28R24HG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Eco Stem/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +423,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Artiom-Porcescu.Eco-Stem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
