@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Eco Stem would like to know your location for adding new pins and navigating to pins</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Eco Stem would like to access your camera to create a pin on the map</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Eco Stem uses your photo for your profile image</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
