@@ -473,7 +473,7 @@
         <!--Forgot Password View Controller-->
         <scene sceneID="gEC-hq-GZd">
             <objects>
-                <viewController id="Qa6-uC-fQz" customClass="ForgotPasswordViewController" customModule="Eco_Stem" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Qa6-uC-fQz" customClass="ForgotPasswordViewController" customModule="Eco_Stem" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BLZ-6v-M2B">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -498,6 +498,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="SUBMIT"/>
+                                        <connections>
+                                            <action selector="sendButtonPressed:" destination="Qa6-uC-fQz" eventType="touchUpInside" id="eSR-1x-1fq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -511,6 +514,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o7t-O5-rGx"/>
+                    <connections>
+                        <outlet property="emailField" destination="fZ2-O1-Cui" id="ID7-Yg-SG0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZVG-e5-hZL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -565,10 +571,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3Mb-cP-h5V"/>
+        <segue reference="Jg5-Kv-qsa"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Image" width="182" height="182"/>
+        <image name="Image" width="182.66667175292969" height="182.66667175292969"/>
         <image name="arrow.clockwise.circle.fill" catalog="system" width="128" height="123"/>
         <image name="location.circle.fill" catalog="system" width="128" height="123"/>
         <image name="map.fill" catalog="system" width="128" height="110"/>

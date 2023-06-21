@@ -98,21 +98,29 @@
 			children = (
 				61A6FF992A2DE2E3004B6112 /* AppDelegate.swift */,
 				61A6FF9B2A2DE2E3004B6112 /* SceneDelegate.swift */,
+				61B7D19D2A4379720035B88C /* View */,
 				61A6FF9D2A2DE2E3004B6112 /* WelcomeViewController.swift */,
-				61A6FF9F2A2DE2E3004B6112 /* Main.storyboard */,
-				61A6FFA52A2DE2E4004B6112 /* Assets.xcassets */,
-				61A6FFA72A2DE2E4004B6112 /* LaunchScreen.storyboard */,
-				61A6FFAA2A2DE2E4004B6112 /* Info.plist */,
-				6183F3FF2A2DF978006F14C2 /* GoogleService-Info.plist */,
-				61A6FFA22A2DE2E3004B6112 /* Eco_Stem.xcdatamodeld */,
 				6183F3F52A2DED46006F14C2 /* LogInViewController.swift */,
 				6183F3F72A2DED54006F14C2 /* SignUpViewController.swift */,
 				6183F3F92A2DED6D006F14C2 /* ForgotPasswordViewController.swift */,
 				6183F3FD2A2DF40D006F14C2 /* MapBarViewController.swift */,
 				6183F4012A2DFCFE006F14C2 /* ProfileViewController.swift */,
 				6183F4032A2DFE4B006F14C2 /* EcoMapViewController.swift */,
+				61A6FFA52A2DE2E4004B6112 /* Assets.xcassets */,
+				61A6FFAA2A2DE2E4004B6112 /* Info.plist */,
+				6183F3FF2A2DF978006F14C2 /* GoogleService-Info.plist */,
+				61A6FFA22A2DE2E3004B6112 /* Eco_Stem.xcdatamodeld */,
 			);
 			path = "Eco Stem";
+			sourceTree = "<group>";
+		};
+		61B7D19D2A4379720035B88C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61A6FF9F2A2DE2E3004B6112 /* Main.storyboard */,
+				61A6FFA72A2DE2E4004B6112 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
