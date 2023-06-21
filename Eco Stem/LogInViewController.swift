@@ -45,6 +45,7 @@ class LogInViewController: UIViewController {
                     self.present(alert, animated: true, completion: nil)
                     return
                 } else {
+                    UserDefaults.standard.set(true, forKey: "isLoggedIn")
                     self.performSegue(withIdentifier: "logInToMap", sender: self)
                 }
             }

@@ -22,6 +22,7 @@ class MapBarViewController: UITabBarController {
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
         do {
             try Auth.auth().signOut()
+            UserDefaults.standard.set(false, forKey: "isLoggedIn")
             navigationController?.popToRootViewController(animated: true)
         } catch let signOutError as NSError {
             print("Error signing out: %@", signOutError)

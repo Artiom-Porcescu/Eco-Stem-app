@@ -123,6 +123,7 @@ class SignUpViewController: UIViewController {
                         self.present(alert, animated: true, completion: nil)
                         return
                     } else {
+                        UserDefaults.standard.set(true, forKey: "isLoggedIn")
                         self.performSegue(withIdentifier: "goToMap", sender: self)
                     }
                 }
